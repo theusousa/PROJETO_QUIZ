@@ -168,9 +168,6 @@ public class Main {
 
 
 
-
-
-
         for (Questao questao : questoes) {
             questao.escrevaQuestao();
             String resposta = questao.leiaResposta(scanner);
